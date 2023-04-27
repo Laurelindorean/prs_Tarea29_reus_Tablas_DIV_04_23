@@ -1,0 +1,21 @@
+table {
+  border-color: rgb(59, 119, 143);
+  box-shadow: inset -5px -5px #888;
+}
+
+th {
+  background-color: rgb(32, 97, 60);
+  color: rgba(163, 230, 189, 0.801);
+  border-color: rgb(43, 43, 219);
+}
+tr {
+  background-color: rgba(163, 230, 189, 0.801);
+  border-color: rgb(43, 43, 219);
+}
+tr.lastRow {
+  background-color: rgb(98, 156, 98);
+  border-color: rgb(43, 43, 219);
+}
+td.value {
+  text-align: center;
+}
