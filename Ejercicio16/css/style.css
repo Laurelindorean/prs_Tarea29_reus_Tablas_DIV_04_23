@@ -1,0 +1,21 @@
+table {
+  width: 45%;
+  border: 2px solid #f1e5e5;
+  background-image: url("./img/patas.jpg");
+  color: #cf8841;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid #000000;
+}
+.titulo {
+  background-color: #669966;
+}
+.subtitulo {
+  background-color: #ffcc99;
+}
+.tipo {
+  background-color: #ffff99;
+}
