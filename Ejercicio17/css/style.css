@@ -1,0 +1,146 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding-left: 25px;
+}
+div {
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/ac.jpg");
+}
+
+.modA {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/back_mantel.jpg");
+  background-repeat: repeat;
+  border: 2px solid;
+}
+.modA2,
+.modC2,
+.modE2 {
+  padding-top: 25px;
+}
+.modB2 {
+  border: 2px solid;
+  width: 200px;
+  height: 200px;
+}
+.modB {
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/back_mantel.jpg");
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.modC {
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/back_mantel.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 2px solid;
+}
+.modD2,
+.modF2,
+.modG,
+.modH {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid;
+}
+.modD {
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/back_mantel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.modE {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  background-image: url("../images/dh.jpg");
+  background-size: cover;
+}
+.modF {
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/dh.jpg");
+  background-size: cover;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.modG2 {
+  width: 100%;
+  height: 50%;
+  background-image: url("../images/dh_2.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 5px;
+}
+.modG3,
+.modH3,
+.modI2,
+.modJ2,
+.modK2,
+.modL2 {
+  padding-top: 25px;
+}
+
+.modH2 {
+  width: 50%;
+  height: 100%;
+  background-image: url("../images/dh_3.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-left: 45px;
+}
+.modI {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  background: linear-gradient(to right, #d2ff52 0%, #566647 100%);
+}
+.modJ {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  background: linear-gradient(
+    to bottom,
+    rgba(240, 183, 161, 1) 0%,
+    rgba(140, 51, 16, 1) 86%,
+    rgba(117, 34, 1, 1) 51%,
+    rgba(191, 110, 78, 1) 100%
+  );
+}
+.modK {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  background: linear-gradient(
+    to top,
+    rgba(50, 116, 45, 1) 0%,
+    rgba(239, 239, 210, 1) 100%
+  );
+}
+.modL {
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  background: linear-gradient(
+    to top,
+    rgba(50, 116, 45, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
