@@ -1,0 +1,41 @@
+.container1 {
+  width: 220px;
+  height: 110px;
+  border: 2px solid blue;
+  background: url("../images/f01.png") left bottom repeat-x,
+    url("../images/f02.png") left bottom no-repeat,
+    url("../images/f03.png") left top repeat-x;
+  background-color: #a4d3ff;
+}
+.container2 {
+  margin-top: 25px;
+  height: 300px;
+  width: 450px;
+
+  border: 2px solid red;
+  margin-left: 25px;
+  background: url("../images/f01.png") left bottom repeat-x,
+    url("../images/f02.png") left bottom no-repeat,
+    url("../images/f03.png") left top repeat-x;
+  background-color: #a4d3ff;
+}
+.container3 {
+  margin-top: 25px;
+  width: 220px;
+  height: 110px;
+  border: 2px solid blue;
+  background: url("../images/f01.png") left bottom repeat-x,
+    url("../images/f02.png") left bottom no-repeat,
+    url("../images/f03.png") left top repeat-x;
+  background-color: #a4d3ff;
+}
+
+.anterior,
+.posterior {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.medio {
+  margin-top: 25px;
+  margin-left: 10px;
+}
